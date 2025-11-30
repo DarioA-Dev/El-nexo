@@ -1,27 +1,38 @@
-nav ul li {
-    /* Mantenerlos en línea */
-    display: inline-block;
-    margin-right: 20px;
+main ul {
+    padding: 0;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    max-width: 400px;
+}
+
+main ul li {
+    display: block;
+    margin: 0;
 }
 
 .boton-enlace {
-    /* Nueva estructura con Flexbox VERTICAL para apilar Imagen sobre Texto */
     display: flex; 
-    flex-direction: column; /* <-- ¡La clave para apilar verticalmente! */
-    align-items: center; /* Centra horizontalmente el contenido (Imagen y Texto) */
-    justify-content: center; /* Centra verticalmente el contenido dentro del <li> */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
 
-    /*caja */
-    padding: 1vw 3vh;
+    /* caja */
+    padding: 1rem;
     margin: 5px 2px;
-    width: auto;
+
+    width: 160px;
+    min-height: 120px;
+    box-sizing: border-box;
     
     /*BORDE Y ESQUINAS */
     border: 2px solid #000000;
     border-radius: 15px;
     
     /* TIPOGRAFÍA Y APARIENCIA */
-    text-decoration: none; /* Quitamos el subrayado del enlace */
+    text-decoration: none;
     font-family: 'Orbitron', Arial, sans-serif;
     font-weight: 700;
     
@@ -29,15 +40,18 @@ nav ul li {
     box-shadow: 0 2px 6px rgba(97, 96, 96, 0.08);
     cursor: pointer;
     
-    background-color: #ededed;
+    background-color: #ffffff;
 }
 
 /* LOGOS E ICONOS */
 
-.navegador-icon {
-    width: 60px; /* Reducido para que no sea tan grande */
-    height: 60px;
+.buttons-icons {
+    width: 70px; /* Reducido para que no sea tan grande */
+    height: 70px;
     margin-bottom: 5px; /* Espacio entre la imagen y el texto */
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* TEXTO DEL BOTÓn*/
@@ -47,65 +61,41 @@ nav ul li {
 }
 
 /* Efecto hover */
-.boton-enlace:hover {
+.nave-hover:hover {
     background-color: #c4c2ff;
-    color: #fff;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*ESTILOS GENÉRICOS DE COLOR*/
-
-.boton-juegos {
-    background-color: #bcad00;
+.games-hover:hover {
+    background-color: #fff0c2;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.boton-navegadores {
-    background-color: #006db3;
+.rendimiento-hover:hover {
+    background-color: #ffcbcb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.boton-juegos {
-    background-color: #bcad00;
+.installer-hover:hover {
+    background-color: #f4d6f9;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+/*
+.nave-hover:hover {
+    background-color: #c4c2ff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.boton-navegadores {
-    background-color: #006db3;
+.games-hover:hover {
+    background-color: #fff0c2;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.rendimiento-hover:hover {
+    background-color: #ffcbcb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+*/
+main ul li:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento */
 }
