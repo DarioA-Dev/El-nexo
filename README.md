@@ -1,5 +1,5 @@
 # 🚀 El Nexo | Portal de Acceso Rápido y Herramientas Esenciales
-!(https://raw.githubusercontent.com/DarioA-Dev/El-nexo/main/img/img-readme/visualiza-main.png)
+![Imagen cabecera El Nexo](https://raw.githubusercontent.com/DarioA-Dev/El-nexo/main/img/img-readme/visualiza-main.png)
 
 ## ✨ La Misión de El Nexo
 
