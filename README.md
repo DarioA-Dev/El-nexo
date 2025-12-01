@@ -60,6 +60,16 @@ Este proyecto fue iniciado por **DarioADev** y actualmente es mantenido por:
 
 -----
 
+## 👨‍💻 Información actual
+
+Está en proceso, el estado actual es:
+- Funciona el apartado de **Navegadores** pero queda por ajustar visualmente.
+- Apartado **Juegos** queda por modificar, está en la versión en la que lo dejé hace tiempo.
+- El apartado de **Instaladores** no está empezado.
+- El apartado de **Rendimiento** no está empezado.
+
+-----
+
 ## 📧 Contacto
 
 ¿Tienes ideas, sugerencias o encontraste un *bug*?
