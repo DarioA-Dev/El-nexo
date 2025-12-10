@@ -25,6 +25,7 @@ Puedes acceder a la versión desplegada en Netlify directamente aquí:
 ### 🖼️ Previsualización del Diseño
 
 Aquí puedes ver cómo luce el portal en acción:
+
 ![Captura de pantalla de la página principal de El Nexo](https://raw.githubusercontent.com/DarioA-Dev/El-nexo/main/img/img-readme/visualiza-main.png)
 
 -----
