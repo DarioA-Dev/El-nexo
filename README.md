@@ -20,7 +20,7 @@ El Nexo soluciona eso: Es una página web estática que centraliza todos tus enl
 
 Puedes acceder a la versión desplegada en Netlify directamente aquí:
 
-**[https://elnexo.netlify.app/](https://elnexo.netlify.app/)**
+**[https://elnexo.netlify.app/](https://el-nexo.netlify.app/)**
 
 ### 🖼️ Previsualización del Diseño
 
