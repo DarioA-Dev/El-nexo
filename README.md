@@ -75,4 +75,4 @@ Está en proceso, el estado actual es:
 
 ¿Tienes ideas, sugerencias o encontraste un *bug*?
 
-Puedes contactarme directamente abriendo un *Issue* en este repositorio o a través de: [dalvarezd7@gmail.com].
+Puedes contactarme directamente abriendo un *Issue* en este repositorio.
