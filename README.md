@@ -75,4 +75,4 @@ Está en proceso, el estado actual es:
 
 ¿Tienes ideas, sugerencias o encontraste un *bug*?
 
-Puedes contactarme directamente abriendo un *Issue* en este repositorio.
+Puedes contactarme directamente abriendo un <a href="https://github.com/DarioA-Dev/El-nexo/issues">Issue</a> en este repositorio.
